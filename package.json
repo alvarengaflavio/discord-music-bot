@@ -24,7 +24,7 @@
     "music",
     "discord-music"
   ],
-  "author": "SudhanPlayz",
+  "author": "Alvarenga",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"
@@ -57,7 +57,6 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "husky": "7.0.4",
     "lint-staged": "11.2.2",
     "prettier": "2.4.1"
   },
