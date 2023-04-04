@@ -1,7 +1,7 @@
 {
-  "name": "discord-caculinha-musicbot",
-  "version": "1.0.0",
-  "description": "Um bot de música para o Discord. Este bot é baseado no bot de música do Discord de SudhanPlayz.",
+  "name": "discord-musicbot-caculinha",
+  "version": "1.0.2",
+  "description": "Um bot de música para o Discord. Este bot é baseado no bot de música de SudhanPlayz.",
   "main": "index.js",
   "scripts": {
     "install-node-v14": "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && export NVM_DIR=\"$([ -z \"${XDG_CONFIG_HOME-}\" ] && printf %s \"${HOME}/.nvm\" || printf %s \"${XDG_CONFIG_HOME}/nvm\")\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && nvm install 14 && nvm use 14",
@@ -11,10 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SudhanPlayz/Discord-MusicBot.git"
+    "url": "git+https://github.com/alvalenda/discord-music-bot.git"
   },
   "engines": {
-    "node": "^18.x"
+    "node": "^18.x",
+    "npm": "^9.x"
   },
   "keywords": [
     "discord",
@@ -26,9 +27,9 @@
   "author": "Alvarenga",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"
+    "url": "https://github.com/alvalenda/discord-music-bot/issues"
   },
-  "homepage": "https://github.com/SudhanPlayz/Discord-MusicBot#readme",
+  "homepage": "https://github.com/alvalenda/discord-music-bothttps://github.com/alvalenda/discord-music-bot.git#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "cpu-stat": "^2.0.1",
@@ -63,7 +64,7 @@
     "*.{js,json,md}": "prettier --write"
   },
   "volta": {
-    "node": "12.22.12",
+    "node": "18.15.0",
     "yarn": "3.3.0"
   }
 }
