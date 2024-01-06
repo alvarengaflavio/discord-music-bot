@@ -146,7 +146,7 @@ module.exports = {
             player.play();
           SongAddedEmbed.setAuthor(
             `Playlist added to queue`,
-            client.botconfig.IconURL
+            client.botconfig.IconURL            
           );
           // SongAddedEmbed.setThumbnail(Searched.tracks[0].displayThumbnail());
           SongAddedEmbed.setDescription(
