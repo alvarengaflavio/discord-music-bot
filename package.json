@@ -1,7 +1,7 @@
 {
   "name": "discord-musicbot-caculinha",
-  "version": "1.0.2",
-  "description": "Um bot de música para o Discord. Este bot é baseado no bot de música de SudhanPlayz.",
+  "version": "1.0.3",
+  "description": "Um bot de música para o Discord. Este bot é baseado no bot de música do Discord de SudhanPlayz.",
   "main": "index.js",
   "scripts": {
     "install-node-v14": "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && export NVM_DIR=\"$([ -z \"${XDG_CONFIG_HOME-}\" ] && printf %s \"${HOME}/.nvm\" || printf %s \"${XDG_CONFIG_HOME}/nvm\")\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && nvm install 14 && nvm use 14",
@@ -27,9 +27,9 @@
   "author": "Alvarenga",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/alvalenda/discord-music-bot/issues"
+    "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"
   },
-  "homepage": "https://github.com/alvalenda/discord-music-bothttps://github.com/alvalenda/discord-music-bot.git#readme",
+  "homepage": "https://github.com/SudhanPlayz/Discord-MusicBot#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "cpu-stat": "^2.0.1",
