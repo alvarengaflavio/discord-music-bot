@@ -1,7 +1,7 @@
 const lavaLinkString = `
-Host : lavalink.lexnet.cc
-Port : 2333
-Password : "lexn3tl@val!nk"
+Host : lava-v3.ajieblogs.eu.org
+Port : 80
+Password : "https://dsc.gg/ajidevserver"
 Secure : false
 `
 const lavaLinkList = lavaLinkString.split('\n').slice(1, -1)
@@ -23,3 +23,4 @@ module.exports = {
   lavaLinkPassword,
   lavaLinkSecure,
 }
+
