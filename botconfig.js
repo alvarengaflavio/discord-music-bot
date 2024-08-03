@@ -36,7 +36,7 @@ module.exports = {
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: {
-    id: 'AjieDev - Lavalink [Non SSL | US]', //- Used for identifier. You can set this to whatever you want
+    id: 'Akshtt - v4 Free', //- Used for identifier. You can set this to whatever you want
     /*  
         host: The host name or IP of the lavalink server.
         port: The port number of the lavalink server.
@@ -56,3 +56,4 @@ module.exports = {
     ClientSecret: process.env.Spotify_ClientSecret || '', // Spotify Client Secret
   },
 }
+

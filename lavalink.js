@@ -1,8 +1,8 @@
 const lavaLinkString = `
-Host : lava-v3.ajieblogs.eu.org
-Port : 80
-Password : "https://dsc.gg/ajidevserver"
-Secure : false
+Host : lava.akshat.tech
+Port : 443
+Password : "admin"
+Secure : true
 `
 const lavaLinkList = lavaLinkString.split('\n').slice(1, -1)
 const lavaLinkHost = lavaLinkList[0].split(' : ')[1].replace(/"/g, '') + ''
