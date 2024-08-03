@@ -1,8 +1,8 @@
 const lavaLinkString = `
-Host : lava.akshat.tech
-Port : 443
-Password : "admin"
-Secure : true
+Host : us1.lavalink.creavite.co
+Port : 20080
+Password : auto.creavite.co
+Secure : false
 `
 const lavaLinkList = lavaLinkString.split('\n').slice(1, -1)
 const lavaLinkHost = lavaLinkList[0].split(' : ')[1].replace(/"/g, '') + ''
