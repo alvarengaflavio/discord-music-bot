@@ -15,7 +15,7 @@ console.log('host:', lavaLinkHost)
 console.log('port:', lavaLinkPort)
 console.log('password:', lavaLinkPassword)
 console.log('secure:', lavaLinkSecure)
-console.log('lavalink configurado!')
+console.log('Lavalink configurado!')
 
 module.exports = {
   lavaLinkHost,
