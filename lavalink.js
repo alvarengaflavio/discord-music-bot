@@ -1,7 +1,7 @@
 const lavaLinkString = `
-Host : us1.lavalink.creavite.co
-Port : 20080
-Password : auto.creavite.co
+Host : lavalink.jompo.cloud
+Port : 2333
+Password : jompo
 Secure : false
 `
 const lavaLinkList = lavaLinkString.split('\n').slice(1, -1)
